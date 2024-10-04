@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-toast .Toastify__toast {
+  width: 200px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.custom-toast .Toastify__toast-body {
+  margin: 0;
+}
+
+.custom-toast .Toastify__close-button {
+  font-size: 10px;
+}
