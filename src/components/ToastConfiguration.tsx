@@ -1,13 +1,11 @@
 import React from 'react';
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import '../App.css';
 
 const ToastConfiguration = () => {
     return (
         <>
             <ToastContainer
-                className="custom-toast"
                 position="top-right"
                 autoClose={2000}
                 hideProgressBar={false}
